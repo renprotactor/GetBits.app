@@ -1,0 +1,488 @@
+Request method:	POST
+Request URI:	https://mzo5slmo45.execute-api.eu-west-2.amazonaws.com/v1/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=GombImxOhMCa8AqMmNM9KEFwaSHSFHty
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Mr",
+    "firstName": "testFirstName",
+    "lastName": "testLastName",
+    "dateOfBirth": "1987-06-06",
+    "email": "test@email.com",
+    "password": "rrrrr",
+    "rating": 10
+}
+HTTP/1.1 200 OK
+Date: Sun, 21 Jul 2024 17:38:35 GMT
+Content-Type: application/json
+Content-Length: 258
+Connection: keep-alive
+x-amzn-RequestId: b9245a09-d39b-4738-b172-e10c6caeb84f
+Access-Control-Allow-Origin: *
+x-amz-apigw-id: bRggRH1ALPEEBfw=
+X-Amzn-Trace-Id: Root=1-669d479b-6068bf786149436273da34af;Parent=7671fea98b50ff97;Sampled=0;lineage=ddaa3d72:0|08e56e1c:0
+Access-Control-Allow-Credentials: true
+
+{
+    "status": "Success",
+    "data": {
+        "userId": "5e4f972d-0071-4306-9669-221b50b5d8cc",
+        "title": "Mr",
+        "firstName": "testFirstName",
+        "lastName": "testLastName",
+        "dateOfBirth": "1987-06-06",
+        "email": "test@email.com",
+        "password": "rrrrr",
+        "rating": 10,
+        "status": "active"
+    },
+    "error": null
+}
+Request method:	POST
+Request URI:	https://mzo5slmo45.execute-api.eu-west-2.amazonaws.com/v1/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=GombImxOhMCa8AqMmNM9KEFwaSHSFHty
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "",
+    "firstName": "testFirstName",
+    "lastName": "testLastName",
+    "dateOfBirth": "1987-06-06",
+    "email": "test@email.com",
+    "password": "rrrrr",
+    "rating": 10
+}
+HTTP/1.1 400 Bad Request
+Date: Sun, 21 Jul 2024 17:38:35 GMT
+Content-Type: application/json
+Content-Length: 76
+Connection: keep-alive
+x-amzn-RequestId: eafb4b69-638f-4851-956f-54b85a77688c
+Access-Control-Allow-Origin: *
+x-amz-apigw-id: bRggXHnDLPEEKKQ=
+X-Amzn-Trace-Id: Root=1-669d479b-70c92b5e5749875d6ea7da2f;Parent=7702a07eefc7281f;Sampled=0;lineage=ddaa3d72:0|08e56e1c:0
+Access-Control-Allow-Credentials: true
+
+{
+    "errorType": "BadRequest",
+    "errorMessage": "Validation error - unknown title"
+}
+Request method:	POST
+Request URI:	https://mzo5slmo45.execute-api.eu-west-2.amazonaws.com/v1/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=GombImxOhMCa8AqMmNM9KEFwaSHSFHty
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Mr",
+    "firstName": "testFirstName",
+    "lastName": "testLastName",
+    "dateOfBirth": "1987-06-06",
+    "email": "test@email.com",
+    "password": "rrrrr",
+    "rating": 5
+}
+HTTP/1.1 200 OK
+Date: Sun, 21 Jul 2024 17:38:35 GMT
+Content-Type: application/json
+Content-Length: 254
+Connection: keep-alive
+x-amzn-RequestId: 874befdd-9089-4937-ac26-9b9630c7fb0d
+Access-Control-Allow-Origin: *
+x-amz-apigw-id: bRggYFIirPEEnyQ=
+X-Amzn-Trace-Id: Root=1-669d479b-5ecfb3335bb61acd3f9bd7fe;Parent=35bf7ba98b45c85f;Sampled=0;lineage=ddaa3d72:0|08e56e1c:0
+Access-Control-Allow-Credentials: true
+
+{
+    "status": "Success",
+    "data": {
+        "userId": "0642661e-caf7-4c44-8721-9a1e4e27c3a1",
+        "title": "Mr",
+        "firstName": "testFirstName",
+        "lastName": "testLastName",
+        "dateOfBirth": "1987-06-06",
+        "email": "test@email.com",
+        "password": "rrrrr",
+        "rating": 5,
+        "status": "new"
+    },
+    "error": null
+}
+Request method:	POST
+Request URI:	https://mzo5slmo45.execute-api.eu-west-2.amazonaws.com/v1/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=GombImxOhMCa8AqMmNM9KEFwaSHSFHty
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Mr",
+    "firstName": "testFirstName",
+    "lastName": "testLastName",
+    "dateOfBirth": "1987-06-06",
+    "email": "test@email.com",
+    "password": "rrrrr",
+    "rating": 1
+}
+HTTP/1.1 200 OK
+Date: Sun, 21 Jul 2024 17:38:35 GMT
+Content-Type: application/json
+Content-Length: 254
+Connection: keep-alive
+x-amzn-RequestId: 95278c5e-4c0e-4a86-8d4a-eed6e757b076
+Access-Control-Allow-Origin: *
+x-amz-apigw-id: bRggaHEcLPEEmAA=
+X-Amzn-Trace-Id: Root=1-669d479b-3ae77c8c476adc5378729dd8;Parent=17177ff7b089abcc;Sampled=0;lineage=ddaa3d72:0|08e56e1c:0
+Access-Control-Allow-Credentials: true
+
+{
+    "status": "Success",
+    "data": {
+        "userId": "659614a5-4c10-46b8-b1a5-f80ab0e5edd9",
+        "title": "Mr",
+        "firstName": "testFirstName",
+        "lastName": "testLastName",
+        "dateOfBirth": "1987-06-06",
+        "email": "test@email.com",
+        "password": "rrrrr",
+        "rating": 1,
+        "status": "new"
+    },
+    "error": null
+}
+Request method:	POST
+Request URI:	https://mzo5slmo45.execute-api.eu-west-2.amazonaws.com/v1/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=GombImxOhMCa8AqMmNM9KEFwaSHSFHty
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Mr",
+    "firstName": "testFirstName",
+    "lastName": "testLastName",
+    "dateOfBirth": "1987-06-06",
+    "email": "test@email.com",
+    "password": "rrrrr",
+    "rating": 0
+}
+HTTP/1.1 400 Bad Request
+Date: Sun, 21 Jul 2024 17:38:36 GMT
+Content-Type: application/json
+Content-Length: 81
+Connection: keep-alive
+x-amzn-RequestId: 68eba0b8-b267-41e1-a270-edf3e644346a
+Access-Control-Allow-Origin: *
+x-amz-apigw-id: bRggcHc8LPEEgsQ=
+X-Amzn-Trace-Id: Root=1-669d479c-49e6d4cb1ccb5936228c4629;Parent=54c40e4f71a6b387;Sampled=0;lineage=ddaa3d72:0|08e56e1c:0
+Access-Control-Allow-Credentials: true
+
+{
+    "errorType": "BadRequest",
+    "errorMessage": "Validation error - rating is required"
+}
+Request method:	POST
+Request URI:	https://mzo5slmo45.execute-api.eu-west-2.amazonaws.com/v1/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=GombImxOhMCa8AqMmNM9KEFwaSHSFHty
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Mr",
+    "firstName": "",
+    "lastName": "testLastName",
+    "dateOfBirth": "1987-06-06",
+    "email": "test@email.com",
+    "password": "rrrrr",
+    "rating": 10
+}
+HTTP/1.1 400 Bad Request
+Date: Sun, 21 Jul 2024 17:38:36 GMT
+Content-Type: application/json
+Content-Length: 65
+Connection: keep-alive
+x-amzn-RequestId: f4ddb9a3-9025-4cb8-8a5d-c9dec9f998fa
+Access-Control-Allow-Origin: *
+x-amz-apigw-id: bRggdG_DrPEEI0g=
+X-Amzn-Trace-Id: Root=1-669d479c-1db856eb29873bda01b3ec4a;Parent=27adaa32e49e1689;Sampled=0;lineage=ddaa3d72:0|08e56e1c:0
+Access-Control-Allow-Credentials: true
+
+{
+    "errorType": "BadRequest",
+    "errorMessage": "__ERR_FNAME_INVALID__"
+}
+Request method:	POST
+Request URI:	https://mzo5slmo45.execute-api.eu-west-2.amazonaws.com/v1/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=GombImxOhMCa8AqMmNM9KEFwaSHSFHty
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Mr",
+    "firstName": "testFirstName",
+    "lastName": "",
+    "dateOfBirth": "1987-06-06",
+    "email": "test@email.com",
+    "password": "rrrrr",
+    "rating": 10
+}
+HTTP/1.1 400 Bad Request
+Date: Sun, 21 Jul 2024 17:38:36 GMT
+Content-Type: application/json
+Content-Length: 109
+Connection: keep-alive
+x-amzn-RequestId: 0049f02f-e898-4455-b536-6e0a39016713
+Access-Control-Allow-Origin: *
+x-amz-apigw-id: bRggfHdUrPEEgsQ=
+X-Amzn-Trace-Id: Root=1-669d479c-44dd81a41e36eb1f670bdf2e;Parent=563df7d398e13578;Sampled=0;lineage=ddaa3d72:0|08e56e1c:0
+Access-Control-Allow-Credentials: true
+
+{
+    "errorType": "BadRequest",
+    "errorMessage": "Validation error - last name must be between 2 and 255 characters"
+}
+Request method:	POST
+Request URI:	https://mzo5slmo45.execute-api.eu-west-2.amazonaws.com/v1/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=GombImxOhMCa8AqMmNM9KEFwaSHSFHty
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Mr",
+    "firstName": "testFirstName",
+    "lastName": "testLastName",
+    "dateOfBirth": "",
+    "email": "test@email.com",
+    "password": "rrrrr",
+    "rating": 10
+}
+HTTP/1.1 400 Bad Request
+Date: Sun, 21 Jul 2024 17:38:36 GMT
+Content-Type: application/json
+Content-Length: 105
+Connection: keep-alive
+x-amzn-RequestId: d5b696c8-3453-4e88-a1d2-62d2d9562900
+Access-Control-Allow-Origin: *
+x-amz-apigw-id: bRgggEnSrPEEZBQ=
+X-Amzn-Trace-Id: Root=1-669d479c-1e3b0f476da79f840893e40e;Parent=04ca7bb88fbb800a;Sampled=0;lineage=ddaa3d72:0|08e56e1c:0
+Access-Control-Allow-Credentials: true
+
+{
+    "errorType": "BadRequest",
+    "errorMessage": "Validation error - date of birth must be in YYYY-MM-DD format"
+}
+Request method:	POST
+Request URI:	https://mzo5slmo45.execute-api.eu-west-2.amazonaws.com/v1/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=GombImxOhMCa8AqMmNM9KEFwaSHSFHty
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Mr",
+    "firstName": "testFirstName",
+    "lastName": "testLastName",
+    "dateOfBirth": "1987-06-06",
+    "email": "",
+    "password": "rrrrr",
+    "rating": 10
+}
+HTTP/1.1 400 Bad Request
+Date: Sun, 21 Jul 2024 17:38:36 GMT
+Content-Type: application/json
+Content-Length: 92
+Connection: keep-alive
+x-amzn-RequestId: ad146a2a-acc2-4a60-a6d0-f93063774daf
+Access-Control-Allow-Origin: *
+x-amz-apigw-id: bRggiE7lrPEEa0A=
+X-Amzn-Trace-Id: Root=1-669d479c-7e26378a75a74a9033981274;Parent=5bf5e494b4c64ab2;Sampled=0;lineage=ddaa3d72:0|08e56e1c:0
+Access-Control-Allow-Credentials: true
+
+{
+    "errorType": "BadRequest",
+    "errorMessage": "Validation error - must provide valid e-mail add"
+}
+Request method:	POST
+Request URI:	https://mzo5slmo45.execute-api.eu-west-2.amazonaws.com/v1/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=GombImxOhMCa8AqMmNM9KEFwaSHSFHty
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Mr",
+    "firstName": "testFirstName",
+    "lastName": "testLastName",
+    "dateOfBirth": "1987-06-06",
+    "email": "test@email.com",
+    "password": "",
+    "rating": 10
+}
+HTTP/1.1 200 OK
+Date: Sun, 21 Jul 2024 17:38:36 GMT
+Content-Type: application/json
+Content-Length: 253
+Connection: keep-alive
+x-amzn-RequestId: 124a3fd9-9978-4ef6-b3af-4b7be949224c
+Access-Control-Allow-Origin: *
+x-amz-apigw-id: bRggjFVtrPEEQ6Q=
+X-Amzn-Trace-Id: Root=1-669d479c-0a34e1763a99edef5d65ae50;Parent=5ad353f63726363f;Sampled=0;lineage=ddaa3d72:0|08e56e1c:0
+Access-Control-Allow-Credentials: true
+
+{
+    "status": "Success",
+    "data": {
+        "userId": "06ea8de3-0b8a-4baa-bd87-5d2c887f458c",
+        "title": "Mr",
+        "firstName": "testFirstName",
+        "lastName": "testLastName",
+        "dateOfBirth": "1987-06-06",
+        "email": "test@email.com",
+        "password": "",
+        "rating": 10,
+        "status": "active"
+    },
+    "error": null
+}
+Request method:	POST
+Request URI:	https://mzo5slmo45.execute-api.eu-west-2.amazonaws.com/v1/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=GombImxOhMCa8AqMmNM9KEFwaSHSFHty
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Mr",
+    "firstName": "testFirstName",
+    "lastName": "testLastName",
+    "dateOfBirth": "1987-06-06",
+    "email": "test@email.com",
+    "password": "rrrrr",
+    "rating": 0
+}
+HTTP/1.1 400 Bad Request
+Date: Sun, 21 Jul 2024 17:38:37 GMT
+Content-Type: application/json
+Content-Length: 81
+Connection: keep-alive
+x-amzn-RequestId: f9fb2eda-4451-4ef2-8c06-1d40297bc2eb
+Access-Control-Allow-Origin: *
+x-amz-apigw-id: bRgglH4oLPEEaBw=
+X-Amzn-Trace-Id: Root=1-669d479d-60564ba11e385fb055367fd7;Parent=137a9d07ac31f776;Sampled=0;lineage=ddaa3d72:0|08e56e1c:0
+Access-Control-Allow-Credentials: true
+
+{
+    "errorType": "BadRequest",
+    "errorMessage": "Validation error - rating is required"
+}
+Request method:	POST
+Request URI:	https://mzo5slmo45.execute-api.eu-west-2.amazonaws.com/v1/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=GombImxOhMCa8AqMmNM9KEFwaSHSFHty
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Mrrrrr",
+    "firstName": "testFirstName",
+    "lastName": "testLastName",
+    "dateOfBirth": "1987-06-06",
+    "email": "test@email.com",
+    "password": "rrrrr",
+    "rating": 10
+}
+HTTP/1.1 400 Bad Request
+Date: Sun, 21 Jul 2024 17:38:37 GMT
+Content-Type: application/json
+Content-Length: 76
+Connection: keep-alive
+x-amzn-RequestId: de30232b-f390-49b2-a0ba-3bce3eb3d4c2
+Access-Control-Allow-Origin: *
+x-amz-apigw-id: bRggmHXZLPEEdew=
+X-Amzn-Trace-Id: Root=1-669d479d-1e0c2c8f14b9008166f09061;Parent=63fee60704b35eb3;Sampled=0;lineage=ddaa3d72:0|08e56e1c:0
+Access-Control-Allow-Credentials: true
+
+{
+    "errorType": "BadRequest",
+    "errorMessage": "Validation error - unknown title"
+}
